@@ -1,5 +1,9 @@
 ### Tools On Your Laptop (HOST MACHINE)
 
+These are the tools (FREEWARE) needed to create your own Dev/Test Enviroment. <br>
+
+A laptop/desktop (Minimum - 4 core 3GHz, 8GB RAM, 120GB HDD) running windows or Linux <br>
+
 1. Create a github account <br>
 https://github.com/ <br>
 
