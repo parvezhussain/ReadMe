@@ -1,11 +1,11 @@
 Complete the following before proceeding <br>
 ----------------------------------------------------------------- <br>
 Getting The Laptop Ready <br>
-https://github.com/parvezhussain/kickstart/blob/master/Getting%20The%20Laptop%20Ready.md <br>
+https://github.com/parvezhussain/ReadMe/blob/master/Getting%20The%20Laptop%20Ready.md <br>
 Provision Your VMs <br>
-https://github.com/parvezhussain/kickstart/blob/master/VirtualBox%20-%20Provision%20Your%20VMs.md <br> 
+https://github.com/parvezhussain/ReadMe/blob/master/VirtualBox%20-%20Provision%20Your%20VMs.md <br> 
 Network Setup on VMs VirtualBox <br>
-https://github.com/parvezhussain/kickstart/blob/master/VirtualBox%20-%20Setup%20Network%20Cards%20on%20VMs.md <br>
+https://github.com/parvezhussain/ReadMe/blob/master/VirtualBox%20-%20Setup%20Network%20Cards%20on%20VMs.md <br>
 ----------------------------------------------------------------- <br>
 
 OS: CentOS 6.8
@@ -37,13 +37,13 @@ The pxeserver vm will automatically reboot.
 POST INSTALL <br>
 
 Configure the Network <br>
-https://github.com/parvezhussain/kickstart/blob/master/Configuring%20Network.md
+https://github.com/parvezhussain/ReadMe/blob/master/Configuring%20Network.md
 
 
 ## OPTION B: Install OS on VM from kickstart server <br>
 
 Make sure the Kickstart server is setup. <br>
-https://github.com/parvezhussain/kickstart/blob/master/Setup%20Kickstart%20Server.md <br> <br>
+https://github.com/parvezhussain/ReadMe/blob/master/Setup%20Kickstart%20Server.md <br> <br>
 
 #### On the VM
 Open VirtualBox <br>
@@ -82,7 +82,7 @@ Open VirtualBox, select the VM and click 'Start'
 ## Install OS from local DVD
 
 Provision the VM <br>
-https://github.com/parvezhussain/kickstart/blob/master/Provision%20Your%20VMs.md
+https://github.com/parvezhussain/ReadMe/blob/master/Provision%20Your%20VMs.md
 
 Complete the Network Configuration. <br> 
 Adapter 1 - Host-only Adapter <br>

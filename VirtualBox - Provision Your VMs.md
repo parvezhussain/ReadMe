@@ -1,6 +1,6 @@
 
 Please complete the following link before proceeding <br>
-https://github.com/parvezhussain/kickstart/blob/master/Getting%20The%20Laptop%20Ready.md
+https://github.com/parvezhussain/ReadMe/blob/master/Getting%20The%20Laptop%20Ready.md
 
 
 ## Provision the VMs.
@@ -30,4 +30,4 @@ File size: 15GB. Click 'Create'<br>
 Repeat the same for 'peserver' and 'peclient1'<br>
 
 NEXT STEP: Setup Network cards on VMs <br>
-https://github.com/parvezhussain/kickstart/blob/master/VirtualBox%20-%20Setup%20Network%20Cards%20on%20VMs.md
+https://github.com/parvezhussain/ReadMe/blob/master/VirtualBox%20-%20Setup%20Network%20Cards%20on%20VMs.md

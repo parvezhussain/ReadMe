@@ -32,4 +32,4 @@ Install Winscp and Putty. Choose default installation.
 You now have all the tools for yourTest/Dev Environment.
 
 NEXT STEP: Provision Your VMs in VirtualBox <br>
-https://github.com/parvezhussain/kickstart/blob/master/VirtualBox%20-%20Provision%20Your%20VMs.md
+https://github.com/parvezhussain/ReadMe/blob/master/VirtualBox%20-%20Provision%20Your%20VMs.md

@@ -7,27 +7,27 @@ IP address:    192.168.56.11
 Complete the following before proceeding <br>
 ----------------------------------------------------------------- <br>
 Getting The Laptop Ready <br>
-https://github.com/parvezhussain/kickstart/blob/master/Getting%20The%20Laptop%20Ready.md <br>
+https://github.com/parvezhussain/ReadMe/blob/master/Getting%20The%20Laptop%20Ready.md <br>
 Provision Your VMs <br>
-https://github.com/parvezhussain/kickstart/blob/master/VirtualBox%20-%20Provision%20Your%20VMs.md <br> 
+https://github.com/parvezhussain/ReadMe/blob/master/VirtualBox%20-%20Provision%20Your%20VMs.md <br> 
 Network Setup on VMs VirtualBox <br>
-https://github.com/parvezhussain/kickstart/blob/master/VirtualBox%20-%20Setup%20Network%20Cards%20on%20VMs.md <br>
+https://github.com/parvezhussain/ReadMe/blob/master/VirtualBox%20-%20Setup%20Network%20Cards%20on%20VMs.md <br>
 
 Kickstart Server is Working <br>
-https://github.com/parvezhussain/kickstart/blob/master/Setup%20Kickstart%20Server.md
+https://github.com/parvezhussain/ReadMe/blob/master/Setup%20Kickstart%20Server.md
 
 DNS Server is Working <br>
-https://github.com/parvezhussain/kickstart/blob/master/Setup%20DNS%20Server.md <br>
+https://github.com/parvezhussain/ReadMe/blob/master/Setup%20DNS%20Server.md <br>
 
 ----------------------------------------------------------------- <br>
 
 Install the OS using Kickstart server <br>
 - OPTION B: Install OS on VM from kickstart server  <br>
 In the installation menu select "Install 6.8" <br>
-https://github.com/parvezhussain/kickstart/blob/master/Install%20OS.md <br>
+https://github.com/parvezhussain/ReadMe/blob/master/Install%20OS.md <br>
 
 Post Install Network Configuration (Optional - because kickstart file has automated this section) <br>
-https://github.com/parvezhussain/kickstart/blob/master/Configuring%20Network.md <br>
+https://github.com/parvezhussain/ReadMe/blob/master/Configuring%20Network.md <br>
 
 
 #### Configure PUPPET-SERVER Install

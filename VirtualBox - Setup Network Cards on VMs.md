@@ -1,8 +1,8 @@
 
 Complete the below items before proceeding <br>
 --------------------------------------------------------------------------------------------------- <br>
-https://github.com/parvezhussain/kickstart/blob/master/Getting%20The%20Laptop%20Ready.md <br>
-https://github.com/parvezhussain/kickstart/blob/master/VirtualBox%20-%20Provision%20Your%20VMs.md <br>
+https://github.com/parvezhussain/ReadMe/blob/master/Getting%20The%20Laptop%20Ready.md <br>
+https://github.com/parvezhussain/ReadMe/blob/master/VirtualBox%20-%20Provision%20Your%20VMs.md <br>
 --------------------------------------------------------------------------------------------------- <br>
 
 ## Setting up the Network
@@ -37,5 +37,5 @@ Click 'OK'<br>
 Repeat the same for 'peserver' and 'peclient1
 
 NEXT STEP: Installing OS on VM <br>
-https://github.com/parvezhussain/kickstart/blob/master/Install%20OS.md
+https://github.com/parvezhussain/ReadMe/blob/master/Install%20OS.md
 
