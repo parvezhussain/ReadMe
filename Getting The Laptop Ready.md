@@ -1,22 +1,24 @@
 ### Tools On Your Laptop (HOST MACHINE)
 
-1. Oracle virtual box <br>
+1. Create a github account <br>
+https://github.com/ <br>
+
+2. Oracle virtual box <br>
 https://www.virtualbox.org/ <br>
 
-2. Oracle VirtualBbox Extension Pack (required for Network Install)<br>
+3. Oracle VirtualBbox Extension Pack (required for Network Install)<br>
 https://www.virtualbox.org/wiki/Downloads<br>
 
-3. Centos DVD download - CentOS-6.8-x86_64-bin-DVD1.iso <br>
+4. Centos DVD download - CentOS-6.8-x86_64-bin-DVD1.iso <br>
 http://isoredirect.centos.org/centos/6.8/isos/x86_64/ <br>
 
-4. Putty<br>
+5. Putty<br>
 http://www.putty.org/ <br>
 
-5. Winscp <br>
+6. Winscp <br>
 https://winscp.net/eng/download.php <br>
 
-6. Create your account in github <br>
-https://github.com/ <br>
+
 
 
 Install Oracle VirtualBox. Choose default installation.
