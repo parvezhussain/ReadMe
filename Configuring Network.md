@@ -2,13 +2,13 @@
 Complete the following before proceeding <br>
 ----------------------------------------------------------------- <br>
 Getting The Laptop Ready <br>
-https://github.com/parvezhussain/kickstart/blob/master/Getting%20The%20Laptop%20Ready.md <br>
+https://github.com/parvezhussain/ReadMe/blob/master/Getting%20The%20Laptop%20Ready.md <br>
 Provision Your VMs <br>
-https://github.com/parvezhussain/kickstart/blob/master/VirtualBox%20-%20Provision%20Your%20VMs.md <br> 
+https://github.com/parvezhussain/ReadMe/blob/master/VirtualBox%20-%20Provision%20Your%20VMs.md <br> 
 Network Setup on VMs VirtualBox <br>
-https://github.com/parvezhussain/kickstart/blob/master/VirtualBox%20-%20Setup%20Network%20Cards%20on%20VMs.md <br>
+https://github.com/parvezhussain/ReadMe/blob/master/VirtualBox%20-%20Setup%20Network%20Cards%20on%20VMs.md <br>
 Install OS - OPTION A: Install from local DVD <br>
-https://github.com/parvezhussain/kickstart/blob/master/Install%20OS.md <br>
+https://github.com/parvezhussain/ReadMe/blob/master/Install%20OS.md <br>
 
 ----------------------------------------------------------------- <br>
 
@@ -78,9 +78,9 @@ Your outbound traffic is working. <br>
 Congratulation!! Your VM is ready. <br>
 
 To Setup a Kickstart server <br>
-https://github.com/parvezhussain/kickstart/blob/master/Setup%20Kickstart%20Server.md <br>
+https://github.com/parvezhussain/ReadMe/blob/master/Setup%20Kickstart%20Server.md <br>
 To Setup a DNS Server <br>
-https://github.com/parvezhussain/kickstart/blob/master/Setup%20DNS%20Server.md <br>
+https://github.com/parvezhussain/ReadMe/blob/master/Setup%20DNS%20Server.md <br>
 
 Main Page https://github.com/parvezhussain/kickstart <br>
 
