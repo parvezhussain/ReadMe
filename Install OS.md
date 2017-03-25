@@ -79,37 +79,13 @@ Open VirtualBox, select the VM and click 'Start'
 
 ======================================== <br>
 
-## Install OS from local DVD
+NEXT STEPS:
 
-Provision the VM <br>
-https://github.com/parvezhussain/ReadMe/blob/master/Provision%20Your%20VMs.md
+Setup DNS Server <br>
+https://github.com/parvezhussain/ReadMe/blob/master/Setup%20DNS%20Server.md
 
-Complete the Network Configuration. <br> 
-Adapter 1 - Host-only Adapter <br>
-Adapter 2 - NAT
+Setup Puppet Master <br>
+https://github.com/parvezhussain/ReadMe/blob/master/Setup%20and%20Configure%20Puppet%20Master.md
 
-    Create the VM
-    From network Configuration Use OPTION 1 or 2
-    use OPTION A to boot/install from local DVD
-
-From Navigation Panel, select 'pxeserver' and click 'Start'
-Centos will start installation.
-Except the below settings, select all default
-hostname: pxeserver.localhost.com
-Server type: minimal
-
-The pxeserver vm will automatically reboot.
-
-========================================
-Install OS from Kickstart Server (Network Install)
-
-    Create the VM
-    From network Configuration Use OPTION 1 or 2
-    use HOWTO Configure VM to boot/install from kickstart server
-
-From Navigation Panel, select 'pxeserver' and click 'Start'
-DHCP will try to connect to the kickstart server.
-Server installation will start
-The pxeserver vm will automatically reboot.
-
-========================================
+Setup Puppet Client <br>
+https://github.com/parvezhussain/ReadMe/blob/master/Setup%20and%20Configure%20Puppet%20Client.md
