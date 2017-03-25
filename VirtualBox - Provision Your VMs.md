@@ -1,5 +1,5 @@
 
-Please complete the following link before proceeding <br>
+Please complete the following before proceeding <br>
 https://github.com/parvezhussain/ReadMe/blob/master/Getting%20The%20Laptop%20Ready.md
 
 
