@@ -16,6 +16,10 @@ https://github.com/parvezhussain/ReadMe/blob/master/Setup%20DNS%20Server.md
 
 ----------------------------------------------------------------- <br>
 
+========== Refrence Article =============== <br>
+https://wiki.centos.org/HowTos/NetworkInstallServer <br>
+========== Refrence Article =============== <br>
+
 
 ### BUILDING KICKSTART SERVER
 
