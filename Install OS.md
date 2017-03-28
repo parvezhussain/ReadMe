@@ -85,6 +85,9 @@ NEXT STEPS:
 Setup DNS Server <br>
 https://github.com/parvezhussain/ReadMe/blob/master/Setup%20DNS%20Server.md
 
+Setup Kickstart Server <br>
+https://github.com/parvezhussain/ReadMe/blob/master/Setup%20Kickstart%20Server.md
+
 Setup Puppet Master <br>
 https://github.com/parvezhussain/ReadMe/blob/master/Setup%20and%20Configure%20Puppet%20Master.md
 
