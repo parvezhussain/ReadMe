@@ -50,8 +50,9 @@ Open VirtualBox <br>
 Select the VM from Navigation Panel. Click 'Settings' <br>
 Select 'System' from Navigation Panel <br>
 Under Motherboard -> Boot Order, checkbox Network and move it to the TOP of the list <br>
-Select 'Network'. Under 'Adapter1 Setting' expand 'Advanced'. Note the MAC address. <br>
-This MAC address will be used on DHCP server for kickstart <br>
+Select 'Network'. Under 'Adapter1 Setting' expand 'Advanced'.<br>
+Note the MAC address. <br>
+This MAC address will be used on DHCP server for kickstart <br><br>
 Click OK <br>
 
 
@@ -60,12 +61,12 @@ Login to Kickstart server.
 Edit /etc/dhcp/dhcpd.conf
 Add the Lines:
 
-host PXEClient1 {
-     hardware ethernet 08:00:27:C1:B6:01;
-     fixed-address 192.168.1.6;
-     filename "pxelinux.0";
-     option host-name "peserver.localhost.com";
-}
+     host PXEClient1 {
+          hardware ethernet 08:00:27:C1:B6:01;
+          fixed-address 192.168.1.6;
+          filename "pxelinux.0";
+          option host-name "peserver.localhost.com";
+     }
 
 Update the MAC Address (noted from above) <br>
 Update the IP address
