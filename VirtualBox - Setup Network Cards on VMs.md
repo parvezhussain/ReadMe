@@ -13,7 +13,7 @@ The most important topic is to understand the Guest VM Networking. There are man
 
 My requirement is:
 
-- I should be able to ssh to the VMs from my laptop.
+- From my laptop, I should be able to ssh to the VMs.
 - The VMs should be able to access internet.
 
 For my requirement I will choose:
