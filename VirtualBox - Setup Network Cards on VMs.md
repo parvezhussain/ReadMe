@@ -1,7 +1,9 @@
 
 Complete the below items before proceeding <br>
 --------------------------------------------------------------------------------------------------- <br>
+Getting The Laptop Ready <br>
 https://github.com/parvezhussain/ReadMe/blob/master/Getting%20The%20Laptop%20Ready.md <br>
+Virtualbox - Provision Your VMs <br>
 https://github.com/parvezhussain/ReadMe/blob/master/VirtualBox%20-%20Provision%20Your%20VMs.md <br>
 --------------------------------------------------------------------------------------------------- <br>
 
