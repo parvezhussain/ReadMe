@@ -77,6 +77,6 @@ Restart puppetmaser service
 Your Puppet Server is Ready. <br>
 
 ------------------------------------------------------------------------------------------------------- <br>
-NEXT STEP : Setup and Configure Puppet Client
-
+NEXT STEP : Setup and Configure Puppet Client <br>
+https://github.com/parvezhussain/ReadMe/blob/master/Setup%20and%20Configure%20Puppet%20Client.md
 <br>
