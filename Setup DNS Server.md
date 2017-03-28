@@ -67,3 +67,8 @@ Edit /etc/resolv.conf
 test
 nslookup (any server)
 
+========================================== <br>
+NEXT STEP: <br>
+
+Setup Kickstart Server <br>
+https://github.com/parvezhussain/ReadMe/blob/master/Setup%20Kickstart%20Server.md
