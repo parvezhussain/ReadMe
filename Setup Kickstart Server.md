@@ -65,7 +65,6 @@ Centos 6
     chkconfig iptables off
 
 Centos 7
-
     systemctl stop firewalld
     systemctl status firewalld
     systemctl disable firewalld
