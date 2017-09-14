@@ -58,10 +58,15 @@ Download the full CentOS 6.8 packages
 Under /var/www/html/centos/6.8, you should see the same files as http://mirror.centos.org/centos/6.8/os/x86_64/
 
 Disable iptables and make the changes parmanent<br>
-
+Centos 6
     service iptables stop
     chkconfig iptables off
-    
+Centos 7
+    systemctl stop firewalld
+    systemctl status firewalld
+    systemctl disable firewalld
+    systemctl is-enabled firewalld
+
 Set SELinux to permissive Otherwise file browsing through http webserver will not work <br>
 Edit the file /etc/selinux/config
         
