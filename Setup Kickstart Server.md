@@ -46,16 +46,28 @@ Download kickstart Repo
 
 ##### 1. Build the Webserver
 
+Centos 6
+
     mkdir -p /var/www/html/centos/6.8
     cd /var/www/html/centos
     ln -s 6.8 6
     cd /var/www/html/centos/6.8
 
-Download the full CentOS 6.8 packages
+Centos 7
 
-    wget -r -nH -nc --cut-dirs=4 --no-parent --reject="index.html*" http://mirror.centos.org/centos/6.8/os/x86_64/
+    mkdir -p /var/www/html/centos/7.2
+    cd /var/www/html/centos
+    ln -s 7.2 7
+    cd /var/www/html/centos/7.2
 
-Under /var/www/html/centos/6.8, you should see the same files as http://mirror.centos.org/centos/6.8/os/x86_64/
+
+Download the full CentOS packages
+
+    wget -r -nH -nc --cut-dirs=4 --no-parent --reject="index.html*" http://mirror.centos.org/centos/6/os/x86_64/
+    wget -r -nH -nc --cut-dirs=4 --no-parent --reject="index.html*" http://mirror.centos.org/centos/7/os/x86_64/
+
+
+Under /var/www/html/centos/6.8, you should see the same files as http://mirror.centos.org/centos/6/os/x86_64/
 
 Disable iptables and make the changes parmanent<br>
 
@@ -64,7 +76,8 @@ Centos 6
     service iptables stop
     chkconfig iptables off
 
-Centos 7<br>
+Centos 7
+
     systemctl stop firewalld
     systemctl status firewalld
     systemctl disable firewalld
@@ -76,15 +89,29 @@ Edit the file /etc/selinux/config
     SELINUX=permissive
     
 Start httpd
+Centos 6
 
     service httpd start  (ignore any error)
     ps -ef | grep httpd
 
+Centos 7
+
+    systemctl start httpd.service  (ignore any error)
+    ps -ef | grep httpd
+
+
+
 Make sure httpd start on boot
+
+Centos 6
 
     chkconfig httpd on
     chkconfig | grep httpd
 
+Centos 7
+
+    systemctl enable httpd
+    systemctl is-enabled httpd
 
 From your laptop browser check http://(IPaddress of pxeserver) <br>
 You should see the Apache page. This means the apache is working.
