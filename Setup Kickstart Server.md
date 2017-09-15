@@ -203,15 +203,16 @@ Find and replace 192.168.1.1 with the kiskstart server Ipaddress on all the file
     
     cd /var/www/html/ks
     perl -pi -e 's/192.168.1.1/192.168.56.10/g' *
-    cd /var/www/html/ks/6.7
+    cd /var/www/html/ks/6
     perl -pi -e 's/192.168.1.1/192.168.56.10/g' *
     
 
 
  Edit the below file and make changes<br>
- /var/www/html/ks/6.7/puppet.conf_pemaster
- /var/www/html/ks/6.7/puppet.conf
- /var/www/html/ks/6.7/CentOS-Base.repo
+ 
+     /var/www/html/ks/6/puppet.conf_pemaster
+     /var/www/html/ks/6/puppet.conf
+     /var/www/html/ks/6/CentOS-Base.repo
  
  
 #### 4. Configure dhcp server 
@@ -236,19 +237,21 @@ This completes your DHCP Server <br>
     cd /var/lib/tftpboot
     cp /usr/share/syslinux/pxelinux.0 .
     cp /usr/share/syslinux/menu.c32 .
-    mkdir -p pxelinux.cfg centos/6.8
+    mkdir -p pxelinux.cfg centos/6
     cp -p /opt/git/tftpboot/pxelinux.cfg/default /var/lib/tftpboot/pxelinux.cfg/
-    cp -p /var/www/html/centos/6/images/pxeboot/* /var/lib/tftpboot/centos/6.8/
+    cp -p /var/www/html/centos/6/images/pxeboot/* /var/lib/tftpboot/centos/6/
 
-    ls -l /var/lib/tftpboot/centos/6.8/
+    ls -l /var/lib/tftpboot/centos/6/
     total 43904
     -rw-r--r--. 1 root root 40688737 May 22 01:06 initrd.img
     -rw-r--r--. 1 root root  4264528 May 22 01:06 vmlinuz
 
-Edit <br>
-/var/lib/tftpboot/pxelinux.cfg/default <br>
-/var/www/html/ks/b67.ks <br>
-/var/www/html/ks/b67_with_puppetclient.ks <br>
+Edit the below files
+
+    /var/lib/tftpboot/pxelinux.cfg/default <br>
+    /var/www/html/ks/b67.ks <br>
+    /var/www/html/ks/b67_with_puppetclient.ks <br>
+
 Update the IP address of the kickstart server and make sure all the paths are correct and accessible.<br>
 
 Start tftp service and start on boot
