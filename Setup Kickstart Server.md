@@ -248,9 +248,9 @@ This completes your DHCP Server <br>
 
 Edit the below files
 
-    /var/lib/tftpboot/pxelinux.cfg/default <br>
-    /var/www/html/ks/b67.ks <br>
-    /var/www/html/ks/b67_with_puppetclient.ks <br>
+    /var/lib/tftpboot/pxelinux.cfg/default
+    /var/www/html/ks/b6.ks
+    /var/www/html/ks/b6_with_puppetclient.ks
 
 Update the IP address of the kickstart server and make sure all the paths are correct and accessible.<br>
 
